@@ -1,0 +1,75 @@
+body{
+  font-style: italic;
+}
+header{
+  background-color: purple;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+header::first-letter{
+  font-size: 70px;
+  color: green;
+}
+#side-nav{
+  background-color: orange;
+  width: 30%;
+  height: 300px;
+  float: left;
+  font-size: 40px;
+  color: white;
+  line-height: 70px;
+
+}
+#navigation{
+  list-style: none;
+  color: white
+}
+#monday{
+  background-color: green;
+  color: black;
+  float: right;
+  width: 70%;
+  height: 300px;
+  font-size: 40px;
+}
+
+footer p{
+  background-color: black;
+  color: yellow;
+  padding: 20px;
+  text-align: center;
+
+}
+.topnav{
+  background-color: blue;
+  overflow: hidden;
+}
+.topnav a{
+  font-size: 30px;
+  color: white;
+  padding: 40px;
+  text-decoration: overline;
+  font-style: oblique;
+  font-weight: bolder;
+}
+.topnav a:hover{
+  color: pink;
+  background-color: white;
+}
+.topnav{
+  text-align: center;
+}
+#class{
+  width: 50%;
+
+}
+#telephone{
+  width: 70%;
+}
+#news{
+  width:70%;
+}
